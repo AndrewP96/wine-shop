@@ -34,7 +34,7 @@
 }
 
 .digustation__title::after {
-  background: url(../../img/form2.png) no-repeat center/100%;
+  background: url(../img/form2.png) no-repeat center/100%;
   content: "";
   position: absolute;
   top: -40px;
@@ -44,7 +44,7 @@
 }
 
 .digustation__title::before {
-  background: url(../../img/form1.png) no-repeat center/100%;
+  background: url(../img/form1.png) no-repeat center/100%;
   content: "";
   position: absolute;
   top: -40px;
@@ -187,7 +187,7 @@
 }
 
 .header__page {
-  background: url("../../img/bgc.jpg") no-repeat center/cover;
+  background: url("../img/bgc.jpg") no-repeat center/cover;
   margin-bottom: 100px;
 }
 
@@ -630,15 +630,15 @@ h6 {
 
 @supports (-webkit-appearance:none) {
   .digustation__title::after {
-    background-image: url(../../img/form2.webp);
+    background-image: url(../img/form2.webp);
   }
 
   .digustation__title::before {
-    background-image: url(../../img/form1.webp);
+    background-image: url(../img/form1.webp);
   }
 
   .header__page {
-    background-image: url("../../img/bgc.webp");
+    background-image: url("../img/bgc.webp");
   }
 }
 
